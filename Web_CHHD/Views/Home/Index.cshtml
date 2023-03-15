@@ -1,0 +1,343 @@
+﻿@model CHHDBase.ImagePageModel
+@{
+   Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@{
+    var custonerHome = @ViewBag.CustomerHome;
+ }
+@*<section id="section-content" class="content page-9 moto-section" data-widget="section" data-container="section">
+   <div class="moto-widget moto-widget-row row-gutter-0" data-widget="row" style="" data-bg-position="left top">
+      <div class="container-fluid">
+         <div class="row" data-container="container">
+            <div class="moto-cell col-sm-12 moto-widget moto-widget-row__column" data-container="container" data-widget="row.column" style="" data-bg-position="left top">
+               <div id="wid__slider__5e53ec8a57825" class="moto-widget moto-widget-slider moto-preset-default moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto   moto-widget-slider-loader" data-widget="slider" data-preset="default">
+                  <ul class="moto-widget-slider-list" data-moto-slider-options='{&quot;slideshowEnabled&quot;:true,&quot;slideshowDelay&quot;:5,&quot;slideshowAnimationType&quot;:&quot;fade&quot;,&quot;showNextPrev&quot;:true,&quot;showPaginationDots&quot;:false,&quot;thumbnailPagination&quot;:{&quot;enable&quot;:false,&quot;align&quot;:{&quot;desktop&quot;:&quot;center&quot;,&quot;tablet&quot;:&quot;&quot;,&quot;mobile-v&quot;:&quot;&quot;,&quot;mobile-h&quot;:&quot;&quot;},&quot;visible_on&quot;:&quot;mobile-v&quot;},&quot;showSlideCaptions&quot;:true,&quot;itemsCount&quot;:3}'>
+                     @foreach (var item in @ViewBag.SliderHome)
+                     {
+                        <li>
+                           <img src="@item.Image" alt="home-slider02.png" />
+                           <div class="bx-caption bx-caption_html moto-visible-on_mobile-h_hidden moto-visible-on_mobile-v_hidden">
+                              <span class="moto-widget-text">
+                                 <h1 style="text-align: center;" class="moto-text_system_4">@item.Title</h1>
+                                 <p style="text-align: center;" class="moto-text_245">@item.Description</p>
+                              </span>
+                           </div>
+                        </li>
+                     }
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>*@
+<section id="section-content" class="content page-9 moto-section" data-widget="section" data-container="section">
+   <div class="moto-widget moto-widget-row row-gutter-0" data-widget="row" style="" data-bg-position="left top">
+      <div class="container-fluid">
+         <div class="row" data-container="container">
+            <div class="moto-cell col-sm-12 moto-widget moto-widget-row__column" data-container="container" data-widget="row.column" style="" data-bg-position="left top">
+               <div id="wid__slider__5e53ec8a57825" class="moto-widget moto-widget-slider moto-preset-default moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto   moto-widget-slider-loader" data-widget="slider" data-preset="default">
+                  <ul class="moto-widget-slider-list" data-moto-slider-options='{&quot;slideshowEnabled&quot;:true,&quot;slideshowDelay&quot;:5,&quot;slideshowAnimationType&quot;:&quot;fade&quot;,&quot;showNextPrev&quot;:true,&quot;showPaginationDots&quot;:false,&quot;thumbnailPagination&quot;:{&quot;enable&quot;:false,&quot;align&quot;:{&quot;desktop&quot;:&quot;center&quot;,&quot;tablet&quot;:&quot;&quot;,&quot;mobile-v&quot;:&quot;&quot;,&quot;mobile-h&quot;:&quot;&quot;},&quot;visible_on&quot;:&quot;mobile-v&quot;},&quot;showSlideCaptions&quot;:true,&quot;itemsCount&quot;:3}'>
+                     <li>
+                        <img src="~/Content/mt-demo/59200/59262/mt-content/uploads/2016/11/home-slider02.png" alt="home-slider02.png" />
+                        <div class="bx-caption bx-caption_html moto-visible-on_mobile-h_hidden moto-visible-on_mobile-v_hidden">
+                           <span class="moto-widget-text">
+                              <h1 style="text-align: center;" class="moto-text_system_4">TRANG BỊ ĐẦY ĐỦ</h1><p style="text-align: center;" class="moto-text_245">XỬ LÝ TẤT CẢ &nbsp;CÁC TÌNH HUỐNG<br>TRÊN ĐƯỜNG</p>
+                           </span>
+                        </div>
+                     </li>
+                     <li>
+                        <img src="~/Content/mt-demo/59200/59262/mt-content/uploads/2016/11/home-slider01.jpg" alt="home-slider01.jpg" />
+                        <div class="bx-caption bx-caption_html moto-visible-on_mobile-h_hidden moto-visible-on_mobile-v_hidden">
+                           <span class="moto-widget-text">
+                              <p style="text-align: center;" class="moto-text_system_4">CỨU HỘ 24/7</p><p style="text-align: center;" class="moto-text_245">VÀ <br> CUNG CẤP DỊCH VỤ TRÊN ĐƯỜNG</p>
+                           </span>
+                        </div>
+                     </li>
+                     <li>
+                        <img src="~/Content/mt-demo/59200/59262/mt-content/uploads/2016/11/home-slider03.jpg" alt="home-slider03.jpg" />
+                        <div class="bx-caption bx-caption_html moto-visible-on_mobile-h_hidden moto-visible-on_mobile-v_hidden">
+                           <span class="moto-widget-text">
+                              <p style="text-align: center;" class="moto-text_system_4">NHANH CHÓNG VÀ AN TOÀN</p><p style="text-align: center;" class="moto-text_245">LIÊN QUAN ĐẾN BẤT KỲ<br>LOẠI XE NÀO</p>
+                           </span>
+                        </div>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="moto-widget moto-widget-row row-fixed" data-widget="row" style="" data-bg-position="left top" data-draggable-disabled="">
+      <div class="container-fluid">
+         <div class="row" data-container="container">
+            <div class="moto-cell col-sm-6 moto-widget moto-widget-row__column" data-container="container" data-widget="row.column" style="" data-bg-position="left top">
+               <div class="moto-widget moto-widget-container moto-container_content_581a059c3" data-widget="container" data-container="container" data-css-name="moto-container_content_581a059c3" data-bg-position="left top" data-draggable-disabled="">
+                  <div class="moto-widget moto-widget-row" data-widget="row" style="" data-bg-position="left top" data-draggable-disabled="">
+                     <div class="container-fluid">
+                        <div class="row" data-container="container">
+                           <div class="moto-cell col-sm-1 moto-widget moto-widget-row__column" data-container="container" data-widget="row.column" style="" data-bg-position="left top"></div><div class="moto-cell col-sm-10 moto-widget moto-widget-row__column" data-container="container" data-widget="row.column" style="" data-bg-position="left top">
+                              <div class="moto-widget moto-widget-text moto-preset-default moto-spacing-top-small moto-spacing-right-auto moto-spacing-bottom-small moto-spacing-left-auto" data-widget="text" data-preset="default" data-spacing="sasa" data-visible-on="-" data-animation="" data-draggable-disabled="">
+                                 <div class="moto-widget-text-content moto-widget-text-editable" aria-multiline="true"><h2 class="moto-text_system_1">AUTO</h2><p class="moto-text_system_2">TOWING<span class="moto-content-image-plugin-wrapper moto-spacing-top-zero moto-spacing-right-zero moto-spacing-bottom-zero moto-spacing-left-small"><span class="moto-content-image-container"><img class="moto-content-image" data-path="2016/11/mt-0637-home-marker.png" data-id="158" alt="" width="18" height="31" src="~/Content/mt-demo/59200/59262/mt-content/uploads/2016/11/mt-0637-home-marker.png"></span></span></p><p class="moto-text_system_10"><br></p><p class="moto-text_system_10"><span class="moto-color5_5">Nhận dịch vụ chuyên nghiệp từ công ty và nhân viên chuyên nghiệp của chúng tôi. Bất kể bạn đang sử dụng xe cá nhân, xe thương mại hay xe công nghiệp, chúng tôi đều cung cấp dịch vụ kéo xe và hỗ trợ khẩn cấp bên đường 24 giờ một ngày và 7 ngày một tuần. </span></p></div>
+                              </div>
+                           </div><div class="moto-cell col-sm-1 moto-widget moto-widget-row__column" data-container="container" data-widget="row.column" style="" data-bg-position="left top"></div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div><div class="moto-cell col-sm-6 moto-widget moto-widget-row__column" data-container="container" data-widget="row.column" style="" data-bg-position="left top">
+               <div class="moto-widget moto-widget-container moto-container_content_581a0a964" data-widget="container" data-container="container" data-css-name="moto-container_content_581a0a964" data-bg-position="left top">
+                  <div class="moto-widget moto-widget-row" data-widget="row" style="" data-bg-position="left top">
+                     <div class="container-fluid">
+                        <div class="row" data-container="container">
+                           <div class="moto-cell col-sm-1 moto-widget moto-widget-row__column" data-container="container" data-widget="row.column" style="" data-bg-position="left top"></div><div class="moto-cell col-sm-10 moto-widget moto-widget-row__column" data-container="container" data-widget="row.column" style="" data-bg-position="left top">
+                              <div class="moto-widget moto-widget-text moto-preset-default moto-spacing-top-small moto-spacing-right-auto moto-spacing-bottom-small moto-spacing-left-auto" data-widget="text" data-preset="default" data-spacing="sasa" data-visible-on="-" data-animation="">
+                                 <div class="moto-widget-text-content moto-widget-text-editable"><h2 class="moto-text_system_1">AUTO</h2><p class="moto-text_system_2">REPAIR<span class="moto-content-image-plugin-wrapper moto-spacing-top-zero moto-spacing-right-zero moto-spacing-bottom-zero moto-spacing-left-small"><span class="moto-content-image-container"><img class="moto-content-image" data-path="2016/11/mt-0637-home-marker.png" data-id="158" alt="" width="18" height="31" src="~/Content/mt-demo/59200/59262/mt-content/uploads/2016/11/mt-0637-home-marker.png"></span></span></p><p class="moto-text_system_10">&nbsp;</p><p class="moto-text_system_10"><span class="moto-color5_5">Hãy để chúng tôi cung cấp cho bạn nhiều dịch vụ ô tô khác nhau, tất cả đều được cung cấp với mức giá hợp lý. Để thuận tiện cho bạn, chúng tôi là nhà cung cấp dịch vụ được ưu tiên và chúng tôi liên kết với hàng loạt trung tâm sửa chữa ô tô tại chỗ, đầy đủ dịch vụ để phục vụ mọi nhu cầu về ô tô của bạn.</span></p></div>
+                              </div>
+                           </div><div class="moto-cell col-sm-1 moto-widget moto-widget-row__column" data-container="container" data-widget="row.column" style="" data-bg-position="left top"></div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div><div class="moto-widget moto-widget-row row-fixed moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-medium moto-spacing-left-auto" data-widget="row" style="" data-bg-position="left top" data-spacing="aama" data-visible-on="-">
+      <div class="container-fluid">
+         <div class="row" data-container="container">
+            <div class="moto-cell col-sm-12 moto-widget moto-widget-row__column" data-container="container" data-widget="row.column" style="" data-bg-position="left top">
+               <div class="moto-widget moto-widget-text moto-preset-default moto-spacing-top-small moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" data-widget="text" data-preset="default" data-spacing="saaa" data-visible-on="-" data-animation="">
+                  <div class="moto-widget-text-content moto-widget-text-editable"><h2 class="moto-text_system_6" style="text-align: center;">GIAO HÀNG AN TOÀN</h2><p class="moto-text_system_5" style="text-align: center;">XE CỦA BẠN ĐƯỢC ĐẢM BẢO!</p><p class="moto-text_system_11" style="text-align: center;"><br></p></div>
+               </div><div class="moto-widget moto-widget-row moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" data-widget="row" style="" data-bg-position="left top" data-visible-on="-" data-spacing="aaaa">
+                  <div class="container-fluid">
+                     <div class="row" data-container="container">
+                        <div class="moto-cell col-sm-6 moto-widget moto-widget-row__column" data-container="container" data-widget="row.column" style="" data-bg-position="left top"><div data-spacing="aaaa" class="moto-widget moto-widget-text moto-preset-default moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" data-widget="text" data-preset="default" data-visible-on="-"><div class="moto-widget-text-content moto-widget-text-editable"><p class="moto-text_system_10">Công ty chúng tôi luôn tận tâm với mục tiêu cung cấp dịch vụ kéo xe, chở xe chuyên nghiệp và hỗ trợ tai nạn đường với giá cả phải chăng để xây dựng mối quan hệ khách hàng lâu dài trong nhiều năm tới. Chúng tôi làm việc không mệt mỏi để vượt quá mong đợi trên mỗi cuộc gọi và chúng tôi đảm bảo chúng tôi cũng sẽ nỗ lực đến chỗ bạn sớm nhất có thể. Đội ngũ của chúng tôi có hơn 25 năm kinh nghiệm trong các dịch vụ kéo xe chở xe cẩu xe và cam kết mang đến cho bạn trải nghiệm kéo xe tốt nhất có thể. Chúng tôi đã sáng tạo lại quy trình cứu hộ cho xe hơi để mang đến cho bạn trải nghiệm khách hàng hàng đầu với mức giá thấp. Cam kết của chúng tôi về sự minh bạch về giá cả hợp lý. Bạn sẽ nhận được đúng những gì bạn muốn mà không phải trả quá nhiều tiền.</p></div></div></div><div class="moto-cell col-sm-6 moto-widget moto-widget-row__column" data-container="container" data-widget="row.column" style="" data-bg-position="left top">
+                           <div data-spacing="aasa" class="moto-widget moto-widget-text moto-preset-default moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-small moto-spacing-left-auto" data-widget="text" data-preset="default"><div class="moto-widget-text-content moto-widget-text-editable"><p class="moto-text_system_10">Chúng tôi có liên kết với hàng loạt những gara sửa chữa oto hàng đầu Hà Nội. Ví dụ như gara Thiên Kim tại 175 Vạn Phúc - Hà Đông - Hà Nội, gara Minh Dũng tại  Ngõ 2 , Đại Lợi, Phú Lãm, Hà Đông, Hà Nội,....  <br></p></div></div><div data-widget-id="wid__button__5e53ec8a58898" class="moto-widget moto-widget-button moto-preset-default moto-preset-provider-default moto-align-left moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto  " data-widget="button">
+                              <a href="more/index.html" data-action="page" class="moto-widget-button-link moto-size-medium moto-link"><span class="fa moto-widget-theme-icon"></span> <span class="moto-widget-button-label">ĐỌC THÊM</span></a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div><div class="moto-widget moto-widget-row row-fixed moto-spacing-top-large moto-spacing-right-auto moto-spacing-bottom-large moto-spacing-left-auto" data-widget="row" style="background-image:url(/Content/mt-demo/59200/59262/mt-content/uploads/2016/11/video2c90ws14perceptualpattern0.1.gif);background-position:bottom;background-repeat:no-repeat;background-size:cover;" data-bg-position="bottom" data-visible-on="-" data-bg-image="2016/11/video2c90ws14perceptualpattern0.1.gif" data-spacing="lala">
+      <div class="container-fluid">
+         <div class="row" data-container="container">
+            <div class="moto-cell col-sm-12 moto-widget moto-widget-row__column" data-container="container" data-widget="row.column" style="" data-bg-position="left top">
+               <div data-widget-id="wid_1582559745_n21t39r6s" class="moto-widget moto-widget-spacer moto-preset-default moto-spacing-top-large moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto moto-visible-on_tablet_hidden moto-visible-on_mobile-h_hidden moto-visible-on_mobile-v_hidden"
+                    data-widget="spacer" data-preset="default" data-spacing="laaa" data-visible-on="+desktop">
+                  <div class="moto-widget-spacer-block" style="height:0px"></div>
+               </div><div class="moto-widget moto-widget-text moto-preset-default moto-spacing-top-small moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" data-widget="text" data-preset="default" data-spacing="saaa" data-visible-on="-" data-animation="">
+                  <div class="moto-widget-text-content moto-widget-text-editable"><h2 class="moto-text_system_4" style="text-align: center;">NHẬN KHẨN CẤP</h2></div>
+               </div><div data-draggable-disabled="" class="moto-widget moto-widget-row" data-widget="row" style="" data-bg-position="left top"><div class="container-fluid"><div class="row" data-container="container"><div class="moto-cell col-sm-2 moto-widget moto-widget-row__column" data-container="container" data-widget="row.column" style="" data-bg-position="left top"></div><div class="moto-cell col-sm-8 moto-widget moto-widget-row__column" data-container="container" data-widget="row.column" style="" data-bg-position="left top"><div data-spacing="aasa" data-draggable-disabled="" class="moto-widget moto-widget-text moto-preset-default moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-small moto-spacing-left-auto" data-widget="text" data-preset="default" data-visible-on="-"><div class="moto-widget-text-content moto-widget-text-editable"><p class="moto-text_system_5" style="text-align: center;"><span class="moto-color5_5">DỊCH VỤ CỨU HỘ KHI BẠN CẦN NHẤT</span><br></p></div></div></div><div class="moto-cell col-sm-2 moto-widget moto-widget-row__column" data-container="container" data-widget="row.column" style="" data-bg-position="left top"></div></div></div></div><div data-widget-id="wid_1582559756_kr1ii7ud5" class="moto-widget moto-widget-spacer moto-preset-default moto-spacing-top-large moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto moto-visible-on_tablet_hidden moto-visible-on_mobile-h_hidden moto-visible-on_mobile-v_hidden"
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  data-widget="spacer" data-preset="default" data-spacing="laaa" data-visible-on="+desktop">
+                  <div class="moto-widget-spacer-block" style="height:0px"></div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>        <div class="moto-widget moto-widget-row row-fixed moto-spacing-top-medium moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" data-widget="row" style="" data-bg-position="left top" data-spacing="maaa" data-visible-on="-">
+      <div class="container-fluid">
+         <div class="row" data-container="container">
+            <div class="moto-cell col-sm-12 moto-widget moto-widget-row__column" data-container="container" data-widget="row.column" style="" data-bg-position="left top">
+               <div data-spacing="aasa" class="moto-widget moto-widget-text moto-preset-default moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-small moto-spacing-left-auto" data-widget="text" data-preset="default" data-visible-on="-"><div class="moto-widget-text-content moto-widget-text-editable"><p style="text-align: center;" class="moto-text_system_5"><strong>DỊCH VỤ</strong> CỦA CHÚNG TÔI<br></p></div></div><div data-widget-id="wid_1582558349_xn7pz73fo" class="moto-widget moto-widget-spacer moto-preset-default moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto "
+                                                                                                                                                                                                                                                                                                                                                                                                                                                      data-widget="spacer" data-preset="default" data-spacing="aaaa" data-visible-on="+desktop,tablet,mobile-h,mobile-v">
+                  <div class="moto-widget-spacer-block" style="height:17px"></div>
+               </div><div class="moto-widget moto-widget-row" data-widget="row" style="" data-bg-position="left top" data-visible-on="-">
+                  <div class="container-fluid">
+                     <div class="row" data-container="container">
+                        <div class="moto-cell col-sm-8 moto-widget moto-widget-row__column" data-container="container" data-widget="row.column" style="" data-bg-position="left top">
+                           <div class="moto-widget moto-widget-row" data-widget="row" style="" data-bg-position="left top">
+                              <div class="container-fluid">
+                                 <div class="row" data-container="container">
+                                    <div class="moto-cell col-sm-6 moto-widget moto-widget-row__column" data-container="container" data-widget="row.column" style="" data-bg-position="left top">
+                                       <div data-widget-id="wid__button__5e53ec8a58e80" class="moto-widget moto-widget-button moto-preset-5 moto-preset-provider-default moto-align-left moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto  " data-widget="button">
+                                          <a href="#" data-action="url" class="moto-widget-button-link moto-size-medium moto-link"><span class="fa moto-widget-theme-icon"></span> <span class="moto-widget-button-label">VẬN CHUYỂN XE MỚI</span></a>
+                                       </div><div data-widget-id="wid_1582558349_n3naviset" class="moto-widget moto-widget-spacer moto-preset-default moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto "
+                                                  data-widget="spacer" data-preset="default" data-spacing="aaaa" data-visible-on="+desktop,tablet,mobile-h,mobile-v">
+                                          <div class="moto-widget-spacer-block" style="height:3px"></div>
+                                       </div><div data-widget-id="wid__button__5e53ec8a5915a" class="moto-widget moto-widget-button moto-preset-5 moto-preset-provider-default moto-align-left moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto  " data-widget="button">
+                                          <a href="#" data-action="url" class="moto-widget-button-link moto-size-medium moto-link"><span class="fa moto-widget-theme-icon"></span> <span class="moto-widget-button-label">VẬN CHUYỂN CÂY CỐI</span></a>
+                                       </div><div data-widget-id="wid_1582558349_xqt8jnyu5" class="moto-widget moto-widget-spacer moto-preset-default moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto "
+                                                  data-widget="spacer" data-preset="default" data-spacing="aaaa" data-visible-on="+desktop,tablet,mobile-h,mobile-v">
+                                          <div class="moto-widget-spacer-block" style="height:3px"></div>
+                                       </div><div data-widget-id="wid__button__5e53ec8a593dd" class="moto-widget moto-widget-button moto-preset-5 moto-preset-provider-default moto-align-left moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto  " data-widget="button">
+                                          <a href="#" data-action="url" class="moto-widget-button-link moto-size-medium moto-link"><span class="fa moto-widget-theme-icon"></span> <span class="moto-widget-button-label">VẬN CHUYỂN XE LU</span></a>
+                                       </div><div data-widget-id="wid_1582558349_ui1db3w4g" class="moto-widget moto-widget-spacer moto-preset-default moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto "
+                                                  data-widget="spacer" data-preset="default" data-spacing="aaaa" data-visible-on="+desktop,tablet,mobile-h,mobile-v">
+                                          <div class="moto-widget-spacer-block" style="height:3px"></div>
+                                       </div><div data-widget-id="wid__button__5e53ec8a59661" class="moto-widget moto-widget-button moto-preset-5 moto-preset-provider-default moto-align-left moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto  " data-widget="button">
+                                          <a href="#" data-action="url" class="moto-widget-button-link moto-size-medium moto-link"><span class="fa moto-widget-theme-icon"></span> <span class="moto-widget-button-label">VẬN CHUYỂN MÁY GẶT</span></a>
+                                       </div><div data-widget-id="wid_1582558349_10qgb9rpq" class="moto-widget moto-widget-spacer moto-preset-default moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto "
+                                                  data-widget="spacer" data-preset="default" data-spacing="aaaa" data-visible-on="+desktop,tablet,mobile-h,mobile-v">
+                                          <div class="moto-widget-spacer-block" style="height:3px"></div>
+                                       </div><div data-widget-id="wid__button__5e53ec8a598d2" class="moto-widget moto-widget-button moto-preset-5 moto-preset-provider-default moto-align-left moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto  " data-widget="button">
+                                          <a href="#" data-action="url" class="moto-widget-button-link moto-size-medium moto-link"><span class="fa moto-widget-theme-icon"></span> <span class="moto-widget-button-label">VẬN CHUYỂN XE NÂNG</span></a>
+                                       </div><div data-widget-id="wid_1582558349_3ozu3knp2" class="moto-widget moto-widget-spacer moto-preset-default moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto "
+                                                  data-widget="spacer" data-preset="default" data-spacing="aaaa" data-visible-on="+desktop,tablet,mobile-h,mobile-v">
+                                          <div class="moto-widget-spacer-block" style="height:3px"></div>
+                                       </div><div data-widget-id="wid__button__5e53ec8a59b49" class="moto-widget moto-widget-button moto-preset-5 moto-preset-provider-default moto-align-left moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto  " data-widget="button">
+                                          <a href="#" data-action="url" class="moto-widget-button-link moto-size-medium moto-link"><span class="fa moto-widget-theme-icon"></span> <span class="moto-widget-button-label">CỨU HỘ XE TAI NẠN</span></a>
+                                       </div><div data-widget-id="wid_1582560090_nfdvc647e" class="moto-widget moto-widget-spacer moto-preset-default moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto "
+                                                  data-widget="spacer" data-preset="default" data-spacing="aaaa" data-visible-on="+desktop,tablet,mobile-h,mobile-v">
+                                          <div class="moto-widget-spacer-block" style="height:3px"></div>
+                                       </div>
+                                    </div><div class="moto-cell col-sm-6 moto-widget moto-widget-row__column" data-container="container" data-widget="row.column" style="" data-bg-position="left top">
+                                       <div data-widget-id="wid__button__5e53ec8a59dd1" class="moto-widget moto-widget-button moto-preset-5 moto-preset-provider-default moto-align-left moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto  " data-widget="button">
+                                          <a href="#" data-action="url" class="moto-widget-button-link moto-size-medium moto-link"><span class="fa moto-widget-theme-icon"></span> <span class="moto-widget-button-label">AUTO IMPOUND &amp; STORAGE</span></a>
+                                       </div><div data-widget-id="wid_1582558349_8k3416db4" class="moto-widget moto-widget-spacer moto-preset-default moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto "
+                                                  data-widget="spacer" data-preset="default" data-spacing="aaaa" data-visible-on="+desktop,tablet,mobile-h,mobile-v">
+                                          <div class="moto-widget-spacer-block" style="height:3px"></div>
+                                       </div><div data-widget-id="wid__button__5e53ec8a5a049" class="moto-widget moto-widget-button moto-preset-5 moto-preset-provider-default moto-align-left moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto  " data-widget="button">
+                                          <a href="#" data-action="url" class="moto-widget-button-link moto-size-medium moto-link"><span class="fa moto-widget-theme-icon"></span> <span class="moto-widget-button-label">ĐĂNG XUẤT</span></a>
+                                       </div><div data-widget-id="wid_1582558349_oebdde9s3" class="moto-widget moto-widget-spacer moto-preset-default moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto "
+                                                  data-widget="spacer" data-preset="default" data-spacing="aaaa" data-visible-on="+desktop,tablet,mobile-h,mobile-v">
+                                          <div class="moto-widget-spacer-block" style="height:3px"></div>
+                                       </div><div data-widget-id="wid__button__5e53ec8a5a2e0" class="moto-widget moto-widget-button moto-preset-5 moto-preset-provider-default moto-align-left moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto  " data-widget="button">
+                                          <a href="#" data-action="url" class="moto-widget-button-link moto-size-medium moto-link"><span class="fa moto-widget-theme-icon"></span> <span class="moto-widget-button-label">VẬN CHUYỂN ĐỒ</span></a>
+                                       </div><div data-widget-id="wid_1582558349_lfrqtyvym" class="moto-widget moto-widget-spacer moto-preset-default moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto "
+                                                  data-widget="spacer" data-preset="default" data-spacing="aaaa" data-visible-on="+desktop,tablet,mobile-h,mobile-v">
+                                          <div class="moto-widget-spacer-block" style="height:3px"></div>
+                                       </div><div data-widget-id="wid__button__5e53ec8a5a55a" class="moto-widget moto-widget-button moto-preset-5 moto-preset-provider-default moto-align-left moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto  " data-widget="button">
+                                          <a href="#" data-action="url" class="moto-widget-button-link moto-size-medium moto-link"><span class="fa moto-widget-theme-icon"></span> <span class="moto-widget-button-label">VẬN CHUYỂN XE SANG</span></a>
+                                       </div><div data-widget-id="wid_1582558349_cbots3hhe" class="moto-widget moto-widget-spacer moto-preset-default moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto "
+                                                  data-widget="spacer" data-preset="default" data-spacing="aaaa" data-visible-on="+desktop,tablet,mobile-h,mobile-v">
+                                          <div class="moto-widget-spacer-block" style="height:3px"></div>
+                                       </div><div data-widget-id="wid__button__5e53ec8a5a7d8" class="moto-widget moto-widget-button moto-preset-5 moto-preset-provider-default moto-align-left moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto  " data-widget="button">
+                                          <a href="#" data-action="url" class="moto-widget-button-link moto-size-medium moto-link"><span class="fa moto-widget-theme-icon"></span> <span class="moto-widget-button-label">DỊCH VỤ TRÊN ĐƯỜNG</span></a>
+                                       </div><div data-widget-id="wid_1582558349_dok3ms6dg" class="moto-widget moto-widget-spacer moto-preset-default moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto "
+                                                  data-widget="spacer" data-preset="default" data-spacing="aaaa" data-visible-on="+desktop,tablet,mobile-h,mobile-v">
+                                          <div class="moto-widget-spacer-block" style="height:3px"></div>
+                                       </div><div data-widget-id="wid__button__5e53ec8a5aa73" class="moto-widget moto-widget-button moto-preset-5 moto-preset-provider-default moto-align-left moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-medium moto-spacing-left-auto  " data-widget="button">
+                                          <a href="#" data-action="url" class="moto-widget-button-link moto-size-medium moto-link"><span class="fa moto-widget-theme-icon"></span> <span class="moto-widget-button-label">KÉO XE</span></a>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div><div class="moto-cell col-sm-4 moto-widget moto-widget-row__column" data-container="container" data-widget="row.column" style="" data-bg-position="left top">
+                           <div data-widget-id="wid__image__5e53ec8a5ad1a" class="moto-widget moto-widget-image moto-preset-default moto-align-center moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-medium moto-spacing-left-auto  " data-widget="image">
+                              <span class="moto-widget-image-link">
+                                 <img src="~/Content/mt-demo/59200/59262/mt-content/uploads/2016/11/xe1.jpg" class="moto-widget-image-picture lazyload" data-id="150" title="" alt="">
+                              </span>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="moto-widget moto-widget-row row-fixed moto-background-fixed moto-spacing-top-large moto-spacing-right-auto moto-spacing-bottom-large moto-spacing-left-auto" data-widget="row" style="background-image:url(/Content/mt-demo/59200/59262/mt-content/uploads/2016/11/background-img02.jpg);background-position:top;background-repeat:no-repeat;background-size:cover;" data-bg-position="top" data-spacing="lala" data-visible-on="-" data-bg-image="2016/11/mt-0637-home-parallax.jpg/index.html">
+      <div class="container-fluid">
+         <div class="row" data-container="container">
+            <div class="moto-cell col-sm-12 moto-widget moto-widget-row__column" data-container="container" data-widget="row.column" style="" data-bg-position="left top">
+               <div data-widget-id="wid_1582558349_wxxohxnew" class="moto-widget moto-widget-spacer moto-preset-default moto-spacing-top-large moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto moto-visible-on_mobile-h_hidden moto-visible-on_mobile-v_hidden"
+                    data-widget="spacer" data-preset="default" data-spacing="laaa" data-visible-on="+desktop,tablet">
+                  <div class="moto-widget-spacer-block" style="height:0px"></div>
+               </div><div class="moto-widget moto-widget-text moto-preset-default moto-spacing-top-small moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" data-widget="text" data-preset="default" data-spacing="saaa" data-visible-on="-" data-animation="">
+                  <div class="moto-widget-text-content moto-widget-text-editable"><h2 class="moto-text_system_4" style="text-align: center;">GIÁ CẢ PHẢI CHĂNG</h2></div>
+               </div>
+               <div class="moto-widget moto-widget-row" data-widget="row" style="" data-bg-position="left top">
+                  <div class="container-fluid">
+                     <div class="row" data-container="container">
+                        <div class="moto-cell col-sm-2 moto-widget moto-widget-row__column" data-container="container" data-widget="row.column" style="" data-bg-position="left top"></div>
+                        <div class="moto-cell col-sm-8 moto-widget moto-widget-row__column" data-container="container" data-widget="row.column" style="" data-bg-position="left top">
+                           <div data-spacing="aasa" class="moto-widget moto-widget-text moto-preset-default moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-small moto-spacing-left-auto" data-widget="text" data-preset="default" data-visible-on="-">
+                              <div class="moto-widget-text-content moto-widget-text-editable">
+                                 <p class="moto-text_system_5" style="text-align: center;">
+                                    <span class="moto-color5_5">
+                                       VẬN CHUYỂN NỔI BẬT HIỆU QUẢ<br>
+                                    </span>
+                                 </p>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="moto-cell col-sm-2 moto-widget moto-widget-row__column" data-container="container" data-widget="row.column" style="" data-bg-position="left top">
+
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div data-widget-id="wid_1582558349_pjm5lvef4" class="moto-widget moto-widget-spacer moto-preset-default moto-spacing-top-large moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto moto-visible-on_mobile-h_hidden moto-visible-on_mobile-v_hidden"
+                    data-widget="spacer" data-preset="default" data-spacing="laaa" data-visible-on="+desktop,tablet">
+                  <div class="moto-widget-spacer-block" style="height:0px"></div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   </div>
+   <div class="moto-widget moto-widget-row" data-widget="row" style="" data-bg-position="left top" data-draggable-disabled="">
+      <div data-css-name="moto-container_content_581a35d12" class="moto-widget moto-widget-container moto-container_content_581a35d12" data-widget="container" data-container="container" data-bg-position="left top" data-draggable-disabled="">
+         <div class="moto-widget moto-widget-row row-fixed moto-spacing-top-large moto-spacing-right-auto moto-spacing-bottom-medium moto-spacing-left-auto" data-widget="row" style="" data-bg-position="left top" data-spacing="lama" data-visible-on="-" data-draggable-disabled="">
+            <div class="container-fluid">
+
+               <div class="row" data-container="container">
+                  <div class="moto-cell col-sm-12 moto-widget moto-widget-row__column" data-container="container" data-widget="row.column" style="" data-bg-position="left top">
+                     <div class="moto-widget moto-widget-text moto-preset-default moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" data-widget="text" data-preset="default" data-spacing="aaaa" data-visible-on="-" data-animation="">
+                        <div class="moto-widget-text-content moto-widget-text-editable"><h2 class="moto-text_system_6" style="text-align: center;"><span class="moto-color5_5">Ý KIẾN CỦA KHÁCH HÀNG</span></h2><p class="moto-text_system_7">&nbsp;</p></div>
+
+                        <div class="container-fluid">
+                           <div class="row" data-container="container">
+                              @foreach (var item in custonerHome)
+                              {
+                                 <div class="moto-cell col-sm-6 moto-widget moto-widget-row__column" data-container="container" data-widget="row.column" style="" data-bg-position="left top">
+                                    <div data-css-name="moto-container_content_581a38804" class="moto-widget moto-widget-container moto-container_content_581a38804" data-widget="container" data-container="container" data-bg-position="left top" data-draggable-disabled="">
+                                       <div class="moto-widget moto-widget-row" data-widget="row" style="" data-bg-position="left top" data-draggable-disabled="">
+                                          <div class="container-fluid">
+                                             <div class="row" data-container="container">
+                                                <div class="moto-cell col-sm-3 moto-widget moto-widget-row__column" data-container="container" data-widget="row.column" style="" data-bg-position="left top">
+                                                   <div data-widget-id="wid_1582558349_i4ek05iv3" class="moto-widget moto-widget-spacer moto-preset-default moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto "
+                                                        data-widget="spacer" data-preset="default" data-spacing="aaaa" data-visible-on="+desktop,tablet,mobile-h,mobile-v">
+                                                      <div class="moto-widget-spacer-block" style="height:8px"></div>
+                                                   </div><div data-widget-id="wid__image__5e53ec8a5b383" class="moto-widget moto-widget-image moto-preset-default moto-align-center moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-small moto-spacing-left-auto  " data-widget="image">
+                                                      <span class="moto-widget-image-link">
+                                                         <img src="@item.Image" class="moto-widget-image-picture lazyload" data-id="149" title="" alt="">
+                                                      </span>
+                                                   </div>
+                                                </div>
+                                                <div class="moto-cell col-sm-9 moto-widget moto-widget-row__column" data-container="container" data-widget="row.column" style="" data-bg-position="left top">
+                                                   <div class="moto-widget moto-widget-row moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-small moto-spacing-left-auto" data-widget="row" data-spacing="aasa" style="" data-bg-position="left top" data-draggable-disabled="" data-visible-on="-">
+                                                      <div class="container-fluid">
+                                                         <div class="row" data-container="container">
+                                                            <div class="moto-cell col-sm-5 moto-widget moto-widget-row__column" data-container="container" data-widget="row.column" style="" data-bg-position="left top">
+                                                               <div class="moto-widget moto-widget-text moto-preset-default moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" data-widget="text" data-preset="default" data-draggable-disabled="" data-visible-on="-">
+                                                                  <div class="moto-widget-text-content moto-widget-text-editable" aria-multiline="true">
+                                                                     <h3 class="moto-text_system_9">@item.Title</h3>
+                                                                  </div>
+                                                               </div>
+                                                            </div>
+                                                            <div class="moto-cell col-sm-7 moto-widget moto-widget-row__column" data-container="container" data-widget="row.column" style="" data-bg-position="left top">
+                                                            </div>
+                                                         </div>
+                                                      </div>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                       <div data-spacing="aasa" class="moto-widget moto-widget-text moto-preset-default moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-small moto-spacing-left-auto" data-widget="text" data-preset="default">
+                                          <div class="moto-widget-text-content moto-widget-text-editable">
+                                             <p class="moto-text_system_10">@item.Description</p><br>
+                                          </div>
+                                       </div>
+
+                                    </div>
+
+                                 </div>
+                              }
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+         </div>
+      </div>
+   </div>
+
+</section>
